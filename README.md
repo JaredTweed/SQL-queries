@@ -6,11 +6,11 @@ I got full marks on all the answers I have included in this file.
 The schema for the bank database is as follows. Primary key attributes are underlined and foreign keys are noted in superscript.
 
 - *Customer* = {*customerID*, firstName, lastName, income, birthDate }
-- *Account* = {*accNumber*, type, balance, branchNumber^Branch}
-- *Owns* = {*customerID^Customer*, *accNumber^Account*}
-- *Transactions* = {*transNumber*, *accNumber^Account*, amount}
-- *Employee* = {*sin*, firstName, lastName, salary, branchNumber^Branch}
-- *Branch* = {*branchNumber*, branchName, managerSIN^Employee, budget}
+- *Account* = {*accNumber*, type, balance, branchNumber<sup>Branch</sup>}
+- *Owns* = {*customerID<sup>Customer</sup>*, *accNumber<sup>Account</sup>*}
+- *Transactions* = {*transNumber*, *accNumber<sup>Account</sup>*, amount}
+- *Employee* = {*sin*, firstName, lastName, salary, branchNumber<sup>Branch</sup>}
+- *Branch* = {*branchNumber*, branchName, managerSIN<sup>Employee</sup>, budget}
 
 #### Notes
 
