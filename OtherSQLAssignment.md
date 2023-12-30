@@ -1,5 +1,7 @@
 # SQL Project
 
+I got full marks on all the code I have shown in this md file.
+
 ## Airport Schema
 
 The schema for the airport database is as follows. Primary key attributes are underlined and foreign keys are noted in superscript.
