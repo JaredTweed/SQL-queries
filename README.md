@@ -25,6 +25,7 @@ The schema for the bank database is as follows. Primary key attributes are under
 
 ## Questions
 
+<!--
 Write *SQL* queries to return the data specified in questions 1 to 20.
 
 #### Query Requirements
@@ -34,7 +35,7 @@ Write *SQL* queries to return the data specified in questions 1 to 20.
 - Query results should be sent to text (not a grid)
 - Every column in the result should be named, so if the query asks you to return something like *income minus salary* make sure that you include an *AS* statement to name the column
 - While your queries will *not* be assessed on their efficiency, marks *may* be deducted if unnecessary tables are included in the query (for example including *Owns* and *Customer* when you only require the *customer ID* of customers who own accounts)
-
+-->
 #### Query 1
 
 *Last name, first name and salary* of employees who work in branch number 3, *order by last name, then first name*.
